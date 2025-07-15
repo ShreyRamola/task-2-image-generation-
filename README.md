@@ -24,36 +24,6 @@ To create a Python script that:
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-### 2. Create a Virtual Environment (Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Required Packages
-
-```bash
-pip install diffusers transformers accelerate torch safetensors
-```
-
-### 4. Hugging Face Login (if required)
-
-```bash
-huggingface-cli login
-```
-
----
-
 ## 🧠 How It Works
 
 1. The script loads the pre-trained `runwayml/stable-diffusion-v1-5` model from Hugging Face using `StableDiffusionPipeline`.
